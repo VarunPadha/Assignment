@@ -119,7 +119,7 @@ const TimeZoneConverter = ({ darkMode, toggleDarkMode, appStyles }) => {
              //To cahnge date and time Bonus functionality 
               dateFormat="MMMM d, yyyy 'Min': mm aa"
               timeFormat="mm"
-              timeIntervals={15}
+              timeIntervals={1}
               timeCaption="Time"
               popperPlacement="top-end"
               popperModifiers={{
