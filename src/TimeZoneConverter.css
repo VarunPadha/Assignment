@@ -1,0 +1,83 @@
+/* TimeZoneConverter.css */
+
+.timezone-converter {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  
+
+  .center-elements {
+    margin-top:50px ;
+    margin-bottom: 20px; /* Increase the margin around the center(button to toggle) elements */
+  }
+  
+  .timezones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .timezones div {
+    position: relative; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .selected-time {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 14px; /* Adjust the font size */
+    color: #333; 
+  }
+
+ .dark-text {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ffffff; /* Text color for dark mode */
+  }
+
+  .time-slider {
+    margin-bottom: 20px; /* Adjust the pixel value as needed for width */
+  }
+
+  /* Style the sliders */
+.slider-input {
+  margin: 10px 0;
+  width: 200% ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.slider-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Adjust this value as needed for spacing */
+}
+
+.slider-controls {
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode .timezone-label {
+  color: #fff; /* White color for text */
+}
+
