@@ -117,8 +117,8 @@ const TimeZoneConverter = ({ darkMode, toggleDarkMode, appStyles }) => {
               onSelect={(date) => setSelectedDate(date)}
               showTimeSelect
              //To cahnge date and time Bonus functionality 
-              dateFormat="MMMM d, yyyy h:mm aa"
-              timeFormat="HH:mm"
+              dateFormat="MMMM d, yyyy 'Min': mm aa"
+              timeFormat="mm"
               timeIntervals={15}
               timeCaption="Time"
               popperPlacement="top-end"
